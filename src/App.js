@@ -1,15 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import studentData from './StudentData'
+import StudentData from './StudentData'
 import Student from './components/Student/Student'
-studentData
+
 
 class App extends React.Component {
   constructor(){
     super();
     this.state = {
-      students: studentData
+      students: StudentData
     }
   }
   
