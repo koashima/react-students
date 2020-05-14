@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import studentData from './StudentData'
-
+import Student from './components/Student/Student'
 studentData
 
 class App extends React.Component {
@@ -16,8 +16,7 @@ class App extends React.Component {
   render() { 
     return (
       <div className="App">
-        
-        <Student />
+        <Student students={this.state.students}/>
       </div>
     );
   }
